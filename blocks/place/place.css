@@ -1,0 +1,14 @@
+.place {
+  color: #fff;
+  box-sizing: border-box;
+  display: grid;
+  grid-template:
+    "title website"
+    "image place__text"
+    "image place__text"
+  ;
+
+  row-gap: 48px;
+  column-gap: 40px;
+  margin: 80px 0 0 0;
+}

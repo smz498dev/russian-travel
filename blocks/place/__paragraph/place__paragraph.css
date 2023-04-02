@@ -1,0 +1,13 @@
+.place__paragraph {
+  color: #fff;
+  margin: 0;
+  padding: 0;
+  max-width: 484px;
+  height: fit-content;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 29px;
+}
+.place__paragraph:first-of-type {
+  margin-bottom: 26px;
+}
