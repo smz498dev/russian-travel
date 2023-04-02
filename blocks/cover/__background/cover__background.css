@@ -1,5 +1,5 @@
 .cover__background {
-  background: url(../../../images/cover-trains.jpg) no-repeat;
+  background: url(../../../images/cover-trains.jpg) center no-repeat;
   background-size: cover;
   position: absolute;
   width: 100%;

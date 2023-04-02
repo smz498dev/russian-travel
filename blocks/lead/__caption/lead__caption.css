@@ -9,3 +9,15 @@
   font-weight: 400;
 
 }
+
+@media (max-width: 425px) {
+  .lead__caption {
+    margin-left: 16px;
+  }
+}
+
+@media (max-width: 1000px) {
+  .lead__caption {
+    margin-left: 24px;
+  }
+}

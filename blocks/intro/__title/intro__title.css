@@ -6,3 +6,18 @@ font-size: 54px;
 line-height: 58px;
 text-align: left;
 }
+
+
+@media (max-width: 1000px) {
+  .intro__title {
+    margin: 0 24px;
+  }
+
+}
+
+@media (max-width: 425px) {
+  .intro__title {
+    margin: 0 16px;
+  }
+
+}
