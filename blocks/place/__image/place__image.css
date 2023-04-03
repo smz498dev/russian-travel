@@ -1,5 +1,24 @@
 .place__image {
   max-width: 460px;
   grid-area: image;
-  
+}
+
+@media (max-width:1048px) {
+  .place__image {
+    max-width: 440px;
+  }
+}
+
+@media (max-width:868px) {
+  .place__image {
+    max-width: 340px;
+  }
+}
+
+@media (max-width: 720px) {
+  .place__image {
+    max-width: 100%;
+    padding: 0;
+
+  }
 }

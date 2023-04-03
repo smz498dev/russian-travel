@@ -4,8 +4,8 @@
   width: 176px;
 }
 
-@media (max-width: 425px) {
-  .header__logo{
+@media (max-width: 720px) {
+  .header__logo {
     width: 142px;
   }
 }

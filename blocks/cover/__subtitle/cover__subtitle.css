@@ -8,4 +8,14 @@
   line-height: 22px;
   text-align: center;
   z-index: 2;
+  border: 1px solid yellow;
+}
+
+@media (max-width: 608px) {
+  .cover__subtitle {
+    margin: 16px 0 0 0;
+    font-size: 14px;
+    line-height: 16px;
+    max-width: 288px;
+  }
 }

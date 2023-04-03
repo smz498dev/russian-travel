@@ -1,5 +1,12 @@
-.photo-grid__item{
+.photo-grid__item {
   margin: 0;
   padding: 0;
-  width: 284px;
+  max-width: 284px;
+
+}
+
+@media (max-width:631px) {
+  .photo-grid__item {
+    max-width: 100%;
+  }
 }

@@ -7,3 +7,9 @@
   max-width: 1184px;
   min-height: 52px;
 }
+
+@media (max-width:1245px) {
+  .header {
+    margin: 0 24px;
+  }
+}

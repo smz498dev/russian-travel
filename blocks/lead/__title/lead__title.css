@@ -9,10 +9,13 @@
   font-weight: 900;
 }
 
-@media (max-width: 425px) {
+
+
+@media (max-width: 720px) {
   .lead__title {
     font-size: 40px;
     line-height: 44px;
+    margin: 0 24px;
   }
 
 }
