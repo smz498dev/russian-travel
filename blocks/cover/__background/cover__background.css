@@ -1,12 +1,9 @@
 .cover__background {
-  /* background: url(../../../images/cover-trains.jpg) center no-repeat; */
   object-fit: cover;
-  position: absolute;
   width: 100%;
   min-width: 320px;
-  max-width: 1184px;
-  height: auto;
-  min-height: 200px;
   max-height: 740px;
-
+ 
+  
+ 
 }

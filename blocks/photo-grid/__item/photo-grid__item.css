@@ -1,12 +1,25 @@
 .photo-grid__item {
   margin: 0;
   padding: 0;
-  max-width: 284px;
+  width: 284px;
 
 }
 
-@media (max-width:631px) {
+
+@media (max-width:1180px){
   .photo-grid__item {
-    max-width: 100%;
+    width: 300px;
+  }
+}
+
+@media (max-width:925px){
+  .photo-grid__item {
+    width: 352px;
+  }
+}
+
+@media (max-width:720px) {
+  .photo-grid__item {
+    width: 288px;
   }
 }

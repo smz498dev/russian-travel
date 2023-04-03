@@ -2,7 +2,7 @@
   color: #fff;
   box-sizing: border-box;
   display: grid;
-  grid-template:
+  grid-template-areas:
     "title website"
     "image place__text"
     "image place__text"
@@ -27,7 +27,7 @@
 
 @media (max-width: 625px) {
   .place {
-    grid-template:
+    grid-template-areas:
       "title"
       "website"
       "image"

@@ -3,12 +3,11 @@
   padding: 28px 0 0 0;
   display: flex;
   justify-content: space-between;
-  align-items: flex-end;
+  align-items: center;
   max-width: 1184px;
   min-height: 52px;
 }
-
-@media (max-width:1245px) {
+@media (max-width:1230px) {
   .header {
     margin: 0 24px;
   }

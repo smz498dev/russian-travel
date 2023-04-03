@@ -1,12 +1,11 @@
 .cover {
   margin: 92px auto 0 auto;
   max-width: 1184px;
-  min-height: 740px;
-  object-fit: cover;
   position: relative;
   display: flex;
   flex-flow: column;
   align-items: center;
   justify-content: center;
-  border: 1px solid red;
+ 
+  
 }
