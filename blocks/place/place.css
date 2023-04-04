@@ -35,5 +35,6 @@
       "place__text"
     ;
     margin: 50px 0 0 0;
+    row-gap: 32px;
   }
 }
