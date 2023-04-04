@@ -1,17 +1,18 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="ru">
 
 <head>
   <meta charset="UTF-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Document</title>
+  <title>Путешествия по России</title>
   <link rel="stylesheet" href="./vendor/normalize.css">
-  <link rel="stylesheet" href="./fonts/Inter-3.19/Inter Web/inter.css">
+  <link rel="stylesheet" href="./fonts/Inter-3.19/Inter-Web/inter.css">
   <link rel="stylesheet" href="./pages/index.css">
 </head>
 
 <body>
+
   <div class="page">
     <header class="header">
       <svg class="header__logo" width="177" height="52" viewBox="0 0 177 52" fill="none"
@@ -74,7 +75,7 @@
       </ul>
     </section>
 
-    <section class="photo-grid">
+    <div class="photo-grid">
       <img src="./images/photo-grid-train.jpg" alt="Из окна поезда" class="photo-grid__item">
       <img src="./images/photo-grid-atharva-tulsi.jpg" alt="Над облаками" class="photo-grid__item">
       <img src="./images/photo-grid-tuman.jpg" alt="Туман" class="photo-grid__item">
@@ -87,7 +88,7 @@
       <img src="./images/photo-grid-kamchatka-2.jpg" alt="Камчатка-2" class="photo-grid__item">
       <img src="./images/photo-grid-baikal-2.jpg" alt="Байкал-2" class="photo-grid__item">
       <img src="./images/photo-grid-ergaki.jpg" alt="Горы" class="photo-grid__item">
-    </section>
+    </div>
 
     <section class="places">
       <div class="place">
@@ -214,14 +215,13 @@
           По мотивам учебной темы о Транссибе — путешествие от столицы до Байкала на электричках.
         </h4>
       </div>
-      <div class="cover__overlay">
-      </div>
       <img class="cover__background" src="./images/cover-trains.jpg" alt="Железная дорога">
-
+      <a class="cover__overlay-link" target="_blank" href="https://stampsy.com/na-elektrichkakh-do-baikala">
+      </a>
     </section>
 
     <footer class="footer">
-      <div class="footer__links">
+      <nav class="footer__links">
         <a href="https://yandex.ru/maps" target="_blank" class="footer__link">
           Карты
         </a>
@@ -237,7 +237,7 @@
         <a href="https://travel.yandex.ru" target="_blank" class="footer__link">
           Путешествия
         </a>
-      </div>
+      </nav>
       <p class="footer__copyright">
         © 2023. Владимир Иванов
       </p>

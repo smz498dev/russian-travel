@@ -2,17 +2,15 @@
   margin: 0;
   padding: 0;
   width: 284px;
-
 }
 
-
-@media (max-width:1180px){
+@media (max-width:1180px) {
   .photo-grid__item {
     width: 300px;
   }
 }
 
-@media (max-width:925px){
+@media (max-width:925px) {
   .photo-grid__item {
     width: 352px;
   }

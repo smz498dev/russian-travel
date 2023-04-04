@@ -7,12 +7,10 @@
   text-align: left;
 }
 
-
 @media (max-width: 1024px) {
   .intro__title {
     margin: 0 24px;
   }
-
 }
 
 @media (max-width: 720px) {
@@ -22,5 +20,4 @@
     line-height: 35px;
     font-weight: 900;
   }
-
 }

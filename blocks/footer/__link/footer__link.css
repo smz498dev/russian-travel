@@ -8,6 +8,11 @@
   line-height: 18px;
 }
 
+.footer__link:hover {
+  opacity: .8;
+  cursor: pointer;
+}
+
 @media (max-width: 740px) {
 
   .footer__link {
@@ -19,9 +24,7 @@
 }
 
 @media (max-width: 740px) {
-
   .footer__link:first-of-type {
-
     margin: 0 0 0 16px;
   }
 }
