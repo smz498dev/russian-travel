@@ -3,15 +3,16 @@
   max-width: 1184px;
   min-width: 320px;
   display: grid;
-  grid-template-columns: repeat(auto-fill, 284px);
+  grid-template-columns: repeat(auto-fit, 284px);
   gap: 16px;
+
 
 
 }
 
 @media (max-width:1180px) {
   .photo-grid {
-    grid-template-columns: repeat(auto-fill, 300px);
+    grid-template-columns: repeat(auto-fit, 300px);
     gap: 14px;
     margin: 88px 48px 0 48px;
   }
@@ -19,14 +20,14 @@
 
 @media (max-width:925px) {
   .photo-grid {
-    grid-template-columns: repeat(auto-fill, 352px);
+    grid-template-columns: repeat(auto-fit, 352px);
     gap: 16px;
   }
 }
 
 @media (max-width:384px) {
   .photo-grid {
-    grid-template-columns: repeat(auto-fill, 288px);
+    grid-template-columns: repeat(auto-fit, 288px);
     margin: 64px 16px 0 16px;
     row-gap: 12px;
   }
