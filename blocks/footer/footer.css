@@ -14,9 +14,17 @@
 
 }
 
+@media (max-width: 900px) {
+  .footer {
+    margin: 88px 24px 0 24px;
+  }
+
+}
+
 @media (max-width: 740px) {
   .footer {
     display: block;
+    margin: 64px 16px 0 16px;
   }
 
 }

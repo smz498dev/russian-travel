@@ -9,3 +9,15 @@
     margin: 92px 24px 0 24px;
   }
 }
+
+@media (max-width:925px) {
+  .places {
+    margin: 88px 24px 0 24px;
+  }
+}
+
+@media (max-width:720px) {
+  .places {
+    margin: 64px 24px 0 24px;
+  }
+}

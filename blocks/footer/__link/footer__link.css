@@ -17,3 +17,11 @@
     margin: 32px 0 0 16px;
   }
 }
+
+@media (max-width: 740px) {
+
+  .footer__link:first-of-type {
+
+    margin: 0 0 0 16px;
+  }
+}

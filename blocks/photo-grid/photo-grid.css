@@ -5,22 +5,25 @@
   display: grid;
   grid-template-columns: repeat(auto-fill, 284px);
   gap: 16px;
-  
+
 }
-@media (max-width:1180px){
+
+@media (max-width:1180px) {
   .photo-grid {
     grid-template-columns: repeat(auto-fill, 300px);
     gap: 14px;
   }
 }
-@media (max-width:925px){
+
+@media (max-width:925px) {
   .photo-grid {
     grid-template-columns: repeat(auto-fill, 352px);
     gap: 16px;
     margin: 88px 24px 0 24px;
   }
 }
-@media (max-width:720px){
+
+@media (max-width:720px) {
   .photo-grid {
     grid-template-columns: repeat(auto-fill, 288px);
     margin: 64px 16px 0 16px;
@@ -28,4 +31,3 @@
     justify-items: center;
   }
 }
-
