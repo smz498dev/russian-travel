@@ -9,8 +9,6 @@
   text-align: center;
   z-index: 2;
 }
-
-
 @media (max-width: 608px) {
   .cover__title {
     font-size: 32px;

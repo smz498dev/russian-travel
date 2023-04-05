@@ -6,29 +6,3 @@
   width: 100%;
   height: auto;
 }
-
-@media (max-width:1048px) {
-  .place__image {
-    max-width: 440px;
-  }
-}
-
-@media (max-width:925px) {
-  .place__image {
-    max-width: 340px;
-  }
-}
-
-@media (max-width: 767px) {
-  .place__image {
-    max-width: 100%;
-    
-  }
-}
-
-@media (max-width: 368px){
-  .place__image{
-    max-width: 100%;
-    max-width: 320px;
-  }
-}

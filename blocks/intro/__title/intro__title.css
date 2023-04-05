@@ -6,13 +6,11 @@
   line-height: 58px;
   text-align: left;
 }
-
 @media (max-width: 1024px) {
   .intro__title {
     padding: 0 24px;
   }
 }
-
 @media (max-width: 720px) {
   .intro__title {
     padding: 0 16px;

@@ -7,24 +7,20 @@
   font-size: 16px;
   line-height: 18px;
 }
-
 .footer__link:hover {
   opacity: .8;
   cursor: pointer;
 }
-
 @media (max-width: 740px) {
-
   .footer__link {
     display: block;
     font-size: 24px;
     line-height: 24px;
-    margin: 32px 0 0 16px;
+    margin: 32px 0 0 0;
   }
 }
-
 @media (max-width: 740px) {
   .footer__link:first-of-type {
-    margin: 0 0 0 16px;
+    margin: 0;
   }
 }

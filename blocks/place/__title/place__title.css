@@ -7,7 +7,6 @@
   line-height: 76px;
   text-align: left;
   grid-area: title;
-
 }
 
 @media (max-width:1048px) {
@@ -16,7 +15,6 @@
     font-size: 42px;
     line-height: 46px;
   }
-
 }
 
 @media (max-width:625px) {
@@ -25,5 +23,10 @@
     font-size: 32px;
     line-height: 35px;
   }
+}
 
+@media (max-width:368px) {
+  .place__title {
+    padding: 0 16px;
+  }
 }

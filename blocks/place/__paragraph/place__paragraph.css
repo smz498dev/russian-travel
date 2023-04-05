@@ -8,16 +8,21 @@
   font-weight: 400;
   font-size: 18px;
   line-height: 29px;
-
 }
-
 .place__paragraph:first-of-type {
   margin-bottom: 26px;
 }
-
 @media (max-width:900px) {
   .place__paragraph {
     font-size: 16px;
     line-height: 26px;
   }
 }
+@media (max-width:368px) {
+  .place__paragraph {
+    padding: 0 16px;
+  }
+}
+
+
+
