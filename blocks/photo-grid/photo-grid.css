@@ -8,7 +8,7 @@
   overflow: hidden;
   justify-items: center;
   justify-content: center;
-  object-fit: fill;
+  object-fit: cover;
 
 
 }
@@ -33,9 +33,9 @@
 
 @media (max-width:767px) {
   .photo-grid {
-    grid-template-columns: repeat(auto-fit, 1fr);
+    grid-template-columns: repeat(auto-fit, minmax(288px, 1fr));
     margin: 64px 0 0 0;
+    gap: 12px;
     padding: 0 16px;
-    row-gap: 12px;
   }
 }

@@ -3,7 +3,8 @@
   margin: 0;
   padding: 0;
   max-width: 484px;
-  height: fit-content;
+  min-width: 288px;
+  height: auto;
   font-weight: 400;
   font-size: 18px;
   line-height: 29px;

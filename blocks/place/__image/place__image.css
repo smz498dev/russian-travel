@@ -1,8 +1,10 @@
 .place__image {
-  width: 460px;
+  max-width: 460px;
   min-width: 320px;
   grid-area: image;
-
+  object-fit: cover;
+  width: 100%;
+  height: auto;
 }
 
 @media (max-width:1048px) {
@@ -11,16 +13,22 @@
   }
 }
 
-@media (max-width:868px) {
+@media (max-width:925px) {
   .place__image {
     max-width: 340px;
   }
 }
 
-@media (max-width: 720px) {
+@media (max-width: 767px) {
   .place__image {
     max-width: 100%;
-    padding: 0;
+    
+  }
+}
 
+@media (max-width: 368px){
+  .place__image{
+    max-width: 100%;
+    max-width: 320px;
   }
 }

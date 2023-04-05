@@ -7,7 +7,7 @@
     "image place__text"
     "image place__text"
   ;
-  justify-items: center;
+  justify-items: start;
   row-gap: 48px;
   column-gap: 40px;
   margin: 92px 0 0 0;
@@ -27,7 +27,7 @@
   }
 }
 
-@media (max-width: 720px) {
+@media (max-width: 767px) {
   .place {
     grid-template-areas:
       "title"
