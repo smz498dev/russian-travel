@@ -30,6 +30,6 @@
     grid-template-columns: repeat(auto-fit, minmax(288px, 352px));
     margin: 64px 0 0 0;
     gap: 12px;
-    padding: 0 16px;
+    padding: 0;
   }
 }
