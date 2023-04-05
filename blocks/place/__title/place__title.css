@@ -7,6 +7,7 @@
   line-height: 76px;
   text-align: left;
   grid-area: title;
+
 }
 
 @media (max-width:1048px) {
