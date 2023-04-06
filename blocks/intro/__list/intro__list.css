@@ -11,14 +11,3 @@
   line-height: 18px;
 }
 
-@media (max-width: 1024px) {
-  .intro__list {
-    padding: 0 24px;
-  }
-}
-
-@media (max-width: 425px) {
-  .intro__list {
-    padding: 0 16px;
-  }
-}

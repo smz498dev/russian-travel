@@ -10,21 +10,18 @@
   column-gap: 40px;
   margin: 92px 0 0 0;
 }
-
 @media (max-width:1056px) {
   .place {
     column-gap: 32px;
     margin: 80px 0 0 0;
   }
 }
-
 @media (max-width:868px) {
   .place {
     column-gap: 28px;
     margin: 72px 0 0 0;
   }
 }
-
 @media (max-width: 767px) {
   .place {
     grid-template-areas:

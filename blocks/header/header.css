@@ -1,6 +1,6 @@
 .header {
   margin: 0;
-  padding: 28px 0 0 0;
+  padding: 28px 0 0;
   display: flex;
   justify-content: space-between;
   align-items: center;
@@ -14,7 +14,7 @@
   }
 }
 
-@media (max-width:1024px) {
+@media (max-width:1023px) {
   .header {
     padding: 28px 24px 0;
   }

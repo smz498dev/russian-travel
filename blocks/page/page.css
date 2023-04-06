@@ -1,7 +1,3 @@
-* {
-  outline: 1px solid red;
-}
-
 .page {
   font-family: 'Inter';
   -webkit-font-smoothing: antialiased;
@@ -20,7 +16,6 @@
     ". footer .";
   row-gap: 56px;
 }
-
 @media (max-width: 1024px) {
   .page {
     row-gap: 48px;

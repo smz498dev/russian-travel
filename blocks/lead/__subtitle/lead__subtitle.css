@@ -8,13 +8,6 @@
   line-height: 36px;
   font-weight: 400;
 }
-
-@media (max-width:1023px) {
-  .lead__subtitle {
-    padding: 0 16px;
-  }
-}
-
 @media (max-width: 720px) {
   .lead__subtitle {
     font-size: 16px;
