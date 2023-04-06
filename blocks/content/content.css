@@ -1,6 +1,29 @@
 .content {
-  margin: 0 auto;
+  margin: 0;
   padding: 0;
-  max-width: 1184px;
-  min-width: 320px;
+  grid-area: content;
+  display: grid;
+  grid-template-columns: fit-content(1184px);
+  grid-template-rows: repeat(5, auto);
+  grid-template-areas:
+    "lead"
+    "intro"
+    "photo-grid"
+    "places"
+    "cover";
+  row-gap: 92px;
+  justify-items: center;
+
+}
+
+@media (max-width:1023px) {
+  .content {
+    row-gap: 88px;
+  }
+}
+
+@media (max-width:767px) {
+  .content {
+    row-gap: 64px;
+  }
 }

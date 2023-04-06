@@ -11,4 +11,18 @@
   background-color: #2a2c2f;
   min-height: 100vh;
   min-width: 100%;
+  display: grid;
+  grid-template-columns: 1fr minmax(320px, 1184px) 1fr;
+  grid-template-rows: minmax(42px, auto) 1fr minmax(18px, auto);
+  grid-template-areas:
+    ". header ."
+    ". content ."
+    ". footer .";
+  row-gap: 56px;
+}
+
+@media (max-width: 1024px) {
+  .page {
+    row-gap: 48px;
+  }
 }

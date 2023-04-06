@@ -2,7 +2,9 @@
   margin: 64px auto 0 auto;
   padding: 0;
   width: 100%;
+  object-fit: cover;
 }
+
 @media (max-width:720px) {
   .lead__image {
     margin: 40px auto 0 auto;
