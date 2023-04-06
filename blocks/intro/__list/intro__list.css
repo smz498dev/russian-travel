@@ -6,12 +6,17 @@
   font-size: 12px;
   line-height: 18px;
   text-align: left;
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 18px;
 }
+
 @media (max-width: 1024px) {
   .intro__list {
     padding: 0 24px;
   }
 }
+
 @media (max-width: 425px) {
   .intro__list {
     padding: 0 16px;
