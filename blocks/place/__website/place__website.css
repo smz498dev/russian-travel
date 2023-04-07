@@ -3,7 +3,7 @@
   grid-area: website;
   align-self: end;
 }
-@media (max-width:368px) {
+@media screen and (max-width:368px) {
   .place__website {
     padding: 0 16px;
   }

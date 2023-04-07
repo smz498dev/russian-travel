@@ -11,7 +11,7 @@
   opacity: .8;
   cursor: pointer;
 }
-@media (max-width: 740px) {
+@media screen and (max-width: 740px) {
   .footer__link {
     display: block;
     font-size: 24px;
@@ -19,7 +19,7 @@
     margin: 32px 0 0 0;
   }
 }
-@media (max-width: 740px) {
+@media screen and (max-width: 740px) {
   .footer__link:first-of-type {
     margin: 0;
   }

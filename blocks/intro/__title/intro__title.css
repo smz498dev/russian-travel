@@ -6,10 +6,7 @@
   line-height: 58px;
   text-align: left;
 }
-@media (max-width: 1024px) {
-  .intro__title {
-  }
-}
+
 @media (max-width: 720px) {
   .intro__title {
     font-size: 32px;

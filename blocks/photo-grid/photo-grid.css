@@ -9,35 +9,35 @@
   justify-items: center;
   justify-content: center;
 }
-@media (max-width:925px) {
+@media screen and (max-width:925px) {
   .photo-grid {
     margin: 88px auto 0;
   }
 }
-@media (max-width:1183px) {
+@media screen and (max-width:1183px) {
   .photo-grid {
     grid-template-columns: repeat(auto-fit, minmax(284px, 300px));
     gap: 14px;
   }
 }
-@media (max-width:1023px) {
+@media screen and (max-width:1023px) {
   .photo-grid {
     grid-template-columns: repeat(auto-fit, minmax(300px, 352px));
     gap: 16px;
   }
 }
-@media (max-width:720px) {
+@media screen and (max-width:720px) {
   .photo-grid {
     margin: 64px auto 0;
   }
 }
-@media (max-width:767px) {
+@media screen and (max-width:767px) {
   .photo-grid {
     grid-template-columns: repeat(auto-fit, minmax(288px, 352px));
     gap: 12px;
   }
 }
-@media (max-width:351px) {
+@media screen and (max-width:351px) {
   .photo-grid {
     grid-template-columns: repeat(auto-fit, minmax(auto, 288px));
     gap: 12px;

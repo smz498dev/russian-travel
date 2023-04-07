@@ -9,7 +9,7 @@
   text-align: center;
   z-index: 2;
 }
-@media (max-width: 608px) {
+@media screen and (max-width: 608px) {
   .cover__subtitle {
     margin: 16px 0 0 0;
     font-size: 14px;

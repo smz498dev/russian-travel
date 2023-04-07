@@ -9,15 +9,21 @@
   grid-area: title;
 }
 
-@media (max-width:1048px) {
+@media screen and (max-width:1023px) {
   .place__title {
+    max-width: 288px;
     font-weight: 900;
     font-size: 42px;
     line-height: 46px;
   }
 }
+@media screen and (max-width:925px) {
+  .place__title {
+    max-width: 340px;
+  }
+}
 
-@media (max-width:625px) {
+@media screen and (max-width:767px) {
   .place__title {
     font-weight: 900;
     font-size: 32px;
@@ -25,8 +31,9 @@
   }
 }
 
-@media (max-width:368px) {
+@media screen and (max-width:368px) {
   .place__title {
+    max-width: 288px;
     padding: 0 16px;
   }
 }

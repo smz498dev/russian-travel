@@ -6,14 +6,14 @@
   color: #fff;
 }
 
-@media (max-width:925px) {
+@media screen and (max-width:925px) {
   .intro {
     margin: 88px auto 0;
     padding: 0 24px;
   }
 }
 
-@media (max-width:720px) {
+@media screen and (max-width:720px) {
   .intro {
     margin: 64px auto 0;
     padding: 0 16px;
