@@ -2,18 +2,23 @@
   padding: 0;
   margin: 92px auto 0;
   width: 100%;
-  outline: 2px solid green;
   }
 
-@media screen and (max-width:925px) {
+@media screen and (max-width:1184px) {
   .cover {
-    margin: 88px auto 0;
+    margin: 92px auto 0;
+  }
+}
+@media screen and (max-width:1023px) {
+  .cover {
+    margin: 90px auto 0;
   }
 }
 
-@media screen and (max-width:720px) {
+
+@media screen and (max-width:767px) {
   .cover {
-    margin: 64px auto 0;
+    margin: 40px auto 0;
   }
 }
 

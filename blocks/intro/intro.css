@@ -5,17 +5,22 @@
   min-width: 288px;
   color: #fff;
 }
-
-@media screen and (max-width:925px) {
+@media screen and (max-width:1084px) {
   .intro {
-    margin: 88px auto 0;
+    margin: 92px 0 0;
+    padding: 0 48px;
+  }
+}
+@media screen and (max-width:1023px) {
+  .intro {
+    margin: 88px 0 0;
     padding: 0 24px;
   }
 }
 
-@media screen and (max-width:720px) {
+@media screen and (max-width:767px) {
   .intro {
-    margin: 64px auto 0;
+    margin: 64px 0 0;
     padding: 0 16px;
   }
 }

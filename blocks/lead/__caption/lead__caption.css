@@ -1,6 +1,6 @@
 .lead__caption {
   color: #fff;
-  margin: 8px 0 0 0;
+  margin: 8px 0 0;
   padding: 0;
   text-align: left;
   font-size: 10px;
@@ -9,13 +9,13 @@
   font-weight: 400;
   text-transform: uppercase;
 }
-@media (max-width: 1024px) {
+@media (max-width: 1023px) {
   .lead__caption {
-    margin-left: 24px;
+    padding: 0 24px;
   }
 }
-@media (max-width: 720px) {
+@media (max-width: 767px) {
   .lead__caption {
-    margin-left: 16px;
+    padding: 0 16px;
   }
 }

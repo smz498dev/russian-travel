@@ -7,7 +7,7 @@
   grid-area: footer;
 }
 
-@media screen and (max-width: 1024px) {
+@media screen and (max-width: 1184px) {
   .footer {
     margin: 40px 0 0;
     padding: 0 24px 24px;
@@ -15,7 +15,7 @@
 }
 
 
-@media screen and (max-width: 740px) {
+@media screen and (max-width: 767px) {
   .footer {
     display: block;
     padding: 0 16px 24px;

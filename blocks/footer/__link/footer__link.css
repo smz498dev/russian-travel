@@ -18,8 +18,6 @@
     line-height: 24px;
     margin: 32px 0 0 0;
   }
-}
-@media screen and (max-width: 740px) {
   .footer__link:first-of-type {
     margin: 0;
   }
