@@ -1,6 +1,5 @@
 .header__lang-link {
   color: #fff;
-  font-family: 'Inter';
   text-decoration: none;
   font-weight: 400;
   font-size: 24px;
@@ -14,11 +13,6 @@
   opacity: .8;
   cursor: pointer;
 }
-
-.header__lang-link:first-of-type {
-  margin-right: 18px;
-}
-
 @media screen and (max-width: 720px) {
   .header__lang-link {
     font-size: 18px;

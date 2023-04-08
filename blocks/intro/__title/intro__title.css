@@ -4,6 +4,7 @@
   padding: 0;
   font-size: 54px;
   line-height: 58px;
+  font-weight: 900;
   text-align: left;
 }
 
@@ -11,6 +12,5 @@
   .intro__title {
     font-size: 32px;
     line-height: 35px;
-    font-weight: 900;
   }
 }
