@@ -8,8 +8,10 @@
 @media (max-width: 1183px) {
   .lead__figure {
     max-width: 928px;
+    margin: 56px auto 0;
+  }
 }
-}
+
 @media (max-width:767px) {
   .lead__figure {
     margin: 40px auto 0;
