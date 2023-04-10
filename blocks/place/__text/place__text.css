@@ -1,8 +1,15 @@
 .place__text {
   grid-area: place__text;
-  align-content: start;
-  width: 100%;
   height: auto;
-  object-fit: cover;
+  display: grid;
+  grid-template-columns: minmax(288px, 484px);
+  grid-auto-rows: minmax(min-content, max-content);
+  row-gap: 26px;
+}
+
+@media screen and (max-width:900px) {
+  .place-text{
+    row-gap: 25px;
+  }
 }
 
