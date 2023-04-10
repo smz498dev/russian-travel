@@ -8,4 +8,6 @@
   gap: 18px;
   align-items: center;
   align-self: flex-end;
+  position: relative;
+  top: -5px;
 }
